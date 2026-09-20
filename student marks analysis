@@ -1,0 +1,32 @@
+#for reading the values from the user
+student_name = str(input("Enter your student name: "))
+print("Enter marks for the following subjects (out of 100):")
+m1=int(input("Enter marks for hindi: "))
+m2=int(input("Enter marks for english: "))
+m3=int(input("Enter marks for maths: "))
+m4=int(input("Enter marks for science: "))
+m5=int(input("Enter marks for social science: "))
+# logic for grade calculation
+Total_marks = m1 + m2 + m3 + m4 + m5
+percentage = (Total_marks / 500) * 100
+if percentage >= 90:
+    grade = "A"
+elif percentage >= 80:
+    grade = "B"
+elif percentage >= 70:
+    grade = "C"
+elif percentage >= 60:
+    grade = "D"
+else:
+    grade = "F"
+    #logic for checking if student passed or failed
+if percentage >= 40:
+    result = "Pass"
+else:
+    result = "Fail"
+    #displaying the results
+print("Student Name:", student_name)
+print("Total Marks out of 500:", Total_marks)
+print("Percentage:", percentage,"%")
+print("Grade:", grade)
+print("Result:", result)
