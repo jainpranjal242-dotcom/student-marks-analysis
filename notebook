@@ -1,0 +1,39 @@
+In []:
+
+# Student Marks Analysis
+
+marks = [78, 85, 62, 91, 74, 88, 69, 95, 81, 73]
+
+print("Student Marks:", marks)
+
+In [ 1:
+
+total = sum(marks)
+
+print("Total Marks:", total)
+
+In []:
+
+In []:
+
+In [1:
+
+G
+
+average = total / len(marks)
+
+print("Average Marks:", average)
+
+highest = max(marks) lowest = min(marks)
+
+print("Highest Marks:", highest) print("Lowest Marks:", lowest)
+
+print("----- Final Result -----")
+
+print("Total Marks:", total)
+
+print("Average Marks:", round(average, 2))
+
+print("Highest Marks:", highest)
+
+print("Lowest Marks:", lowest)
